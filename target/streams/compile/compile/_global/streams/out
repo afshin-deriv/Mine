@@ -1,0 +1,18 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/afshinpaydar/Projects/mine/src/main/scala/Mine.scala:26:10: not found: value MinesweeperGame[0m
+[0m[[0m[31merror[0m] [0m[0m  import MinesweeperGame._[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/afshinpaydar/Projects/mine/src/main/scala/Mine.scala:29:15: not found: value newGame[0m
+[0m[[0m[31merror[0m] [0m[0m  val board = newGame(8, 0.2) // 20% probability for a cell to be a bomb[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/afshinpaydar/Projects/mine/src/main/scala/Mine.scala:35:3: not found: value selectCell[0m
+[0m[[0m[31merror[0m] [0m[0m  selectCell(board, row, col) match {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/afshinpaydar/Projects/mine/src/main/scala/Mine.scala:36:15: not found: value Bomb[0m
+[0m[[0m[31merror[0m] [0m[0mIdentifiers that begin with uppercase are not pattern variables but match the value in scope.[0m
+[0m[[0m[31merror[0m] [0m[0m    case Some(Bomb) => println(s"Boom! The cell at ($row, $col) is a bomb.")[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/afshinpaydar/Projects/mine/src/main/scala/Mine.scala:37:15: not found: value NotBomb[0m
+[0m[[0m[31merror[0m] [0m[0mIdentifiers that begin with uppercase are not pattern variables but match the value in scope.[0m
+[0m[[0m[31merror[0m] [0m[0m    case Some(NotBomb) => println(s"Safe! The cell at ($row, $col) is not a bomb.")[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0m5 errors found[0m
